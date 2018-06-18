@@ -6,9 +6,9 @@ def printTimeStamp(name):
 printTimeStamp("Valeriy Neroznak")
 
 a=input("Месяц:")
-if a in ["January","March","May","July","August","October","December"]:
-    print("In "+str(a)+" 31 days")
-elif a in ["April","June","September","November"]:
-    print("In " + str(a) + " 30 days")
+if a in ["Квітень","Червень","Вересень","Листопад"]:
+    print("В цьому місяці 30 днів")
+elif a in ["Січень","Березень","Травень","Липень","Серпень","Жовтень","Грудень"]:
+    print("В цьому місяці 31 днів")
 else:
-    print("In " + str(a) + " 28 or 29 days")
+    print("В цьому місяці 29 або 30 днів")
