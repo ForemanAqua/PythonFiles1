@@ -7,6 +7,7 @@ printTimeStamp("Valeriy Neroznak")
 
 a=list(map(int,input("Введіть числа:").split(" ")))
 if a[0]==int(0):
-  print("Error , first number can't be 0")
+  print("Помилка, перше значення не може бути нулем ")
 elif int(0) in a:
-    print(sum(a)/(len(a)-1))
+    x=sum(a)/(len(a)-1)
+    print(x)
