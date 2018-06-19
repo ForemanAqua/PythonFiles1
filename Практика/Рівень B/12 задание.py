@@ -8,8 +8,8 @@ printTimeStamp("Valeriy Neroznak")
 import math as m
 
 t1=m.cos(m.radians(float(input("Введіть ширину першої точки: "))))
-t2=m.cos(m.radians(float(input("Введіть довготу другої точки: "))))
-g1=m.cos(m.radians(float(input("Введіть ширину першої точки: "))))
+g1=m.cos(m.radians(float(input("Введіть довготу першої точки: "))))
+t2=m.cos(m.radians(float(input("Введіть ширину другої точки: "))))
 g2=m.cos(m.radians(float(input("Введіть довготу другої точки: "))))
 
 
