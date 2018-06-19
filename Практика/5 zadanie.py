@@ -1,3 +1,11 @@
+import datetime
+
+def printTimeStamp(name):
+    print("Автор програми: " + name)
+    print("Час компіляції: " + str(datetime.datetime.now()),"\n")
+printTimeStamp("Valeriy Neroznak")
+
+
 import operator
 x = {1: 6, 3: 4, 4: 3, 2: 1, 0: 0, 5: 1, 100: 0, 6: 30}
 sorted_x = sorted(x.items(), key=operator.itemgetter(0))
