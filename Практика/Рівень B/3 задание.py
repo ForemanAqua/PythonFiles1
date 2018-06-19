@@ -6,7 +6,7 @@ def printTimeStamp(name):
 printTimeStamp("Valeriy Neroznak")
 
 c=0
-print("0 C = 32 F")
+print("0 градусів Цельсія еквівалентно 32 градусів Фаренгейт")
 for i in range(10):
     c += 10
     k = c *float(1.8)+32
