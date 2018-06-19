@@ -5,10 +5,8 @@ def printTimeStamp(name):
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
 printTimeStamp("Valeriy Neroznak")
 
-import functools as f
-
-a = int(input("Введите числа: ")).split()
-b=len(a)
-s= f.reduce((lambda x,y: x+y),a)
-k=s/a
-print(k)
+a=list(map(int,input("Введіть числа:").split(" ")))
+if a[0]==int(0):
+  print("Error , first number can't be 0")
+elif int(0) in a:
+    print(sum(a)/(len(a)-1))
