@@ -5,20 +5,27 @@ def printTimeStamp(name):
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
 printTimeStamp("Valeriy Neroznak")
 
-n=2
-age = int((input())
-def isb(n):
-    for i in range(5):
-        def sd():
-            if age<3:
-                вартість=0
-            elif 3<age<12:
-                вартість=16
-            elif age>60:
-                вартість=18
-            else:
-                вартість = 25
-            print(вартість)
-        sd()
-x=n+1
-isb(x)
+
+гроші = 0
+x = 0
+while True:
+    a = input("Years old:")
+    if str(a) == str("-"):
+        if x >= 10:
+            гроші = гроші - гроші * 0.1
+            print("Оплата: %.2f" % гроші)
+            break
+        else:
+            print("Оплата: %.2f" % гроші)
+            break
+    elif int(a) <= int(3):
+        x += 1
+    elif int(3) < int(a) < int(12):
+        x += 1
+        гроші += float(16.00)
+    elif int(12) < int(a) < int(60):
+        x += 1
+        гроші += float(25.00)
+    elif int(a) >= int(60):
+        x += 1
+        гроші += float(18.00)
