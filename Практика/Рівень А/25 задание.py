@@ -27,4 +27,4 @@ if s<10:
     s = str('0' + str(s))
 else:
     s = str(s)
-print(str(d) + ':' + str(h) + ':' + str(m) + ':' + str(s))
+print(d,':',h,':',m,':',s)
