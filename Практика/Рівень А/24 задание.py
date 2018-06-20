@@ -7,8 +7,8 @@ printTimeStamp("Valeriy Neroznak")
 
 import math
 
-s = int(input('Довжина сторони: '))
-n = int(input('Кількість сторін: '))
+s = float(input('Довжина сторони: '))
+n = float(input('Кількість сторін: '))
 
-print ((n*(s**2))/(4*math.tan(math.degrees(math.pi)/n)))
+print("Площа: %.2f"%((n * s**2) / math.tan(4)* (math.pi /n)),"м**2")
 
