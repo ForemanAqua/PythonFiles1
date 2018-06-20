@@ -5,7 +5,7 @@ def printTimeStamp(name):
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
 printTimeStamp("Valeriy Neroznak")
 
-x=[7,3,5]
+x=list(map(int,input().split()))
 x=sorted(x)
 min=min(x)
 max=max(x)
