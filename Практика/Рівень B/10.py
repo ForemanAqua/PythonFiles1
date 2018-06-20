@@ -5,10 +5,11 @@ def printTimeStamp(name):
     print("Час компіляції: " + str(datetime.datetime.now()),"\n")
 printTimeStamp("Valeriy Neroznak")
 
-result = ""
+result = ("")
 q = int(input("Введите число: "))
-while (q != 0):
-    r = q%2
-    result += str(r)
+while q != 0:
+    res = q%2
+    result =result + str(res)
     q = q//2
-print(result[::-1])
+f=result[::-1]
+print(f)
