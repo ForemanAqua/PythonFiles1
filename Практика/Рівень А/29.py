@@ -9,16 +9,16 @@ length = 17
 
 def printline(x):
     space = (length - x) / 2
-    i = 0;
+    i = 0
     j = 0
     line = " "
     while i < space:
         line = line + " "
-        i += 1;
+        i += 1
     while j < x:
         line = line + "X"
         j += 1
-    print(line);
+    print(line)
 
 s = 3
 l = 3
